@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__deepwiki__read_wiki_structure",
+      "mcp__deepwiki__read_wiki_contents",
+      "mcp__deepwiki__ask_question",
+      "mcp__exa__web_search_exa",
+      "mcp__exa__get_code_context_exa",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
