@@ -13,9 +13,13 @@ Instead of dumping architecture docs at you, this skill mentors you through a co
 5. **Self-Assessment** — Checklist to gauge your understanding
 6. **Study Guide Export** — Save everything as a personal reference doc
 
+## Installation
+
+Copy or clone the `.claude/skills/codebase-mentor/` directory into your project's `.claude/skills/` folder.
+
 ## Usage
 
-In a Claude Code session within this directory:
+In a Claude Code session:
 
 ```
 /codebase-mentor vercel/ai
@@ -30,6 +34,15 @@ It will ask your goal (study, contribute, integrate, or interview prep) and tail
 - [Claude Code](https://claude.ai/claude-code)
 - DeepWiki MCP server (for codebase intelligence)
 - Exa MCP server (for community/contributor research)
+
+## Project Structure
+
+```
+.claude/
+└── skills/
+    └── codebase-mentor/
+        └── SKILL.md    # Skill definition and mentor logic
+```
 
 ## Philosophy
 
