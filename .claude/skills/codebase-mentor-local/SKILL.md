@@ -127,7 +127,9 @@ Synthesize all agent findings and present conversationally:
 {One-sentence pitch — derived from README, package.json description, or inferred from code}
 
 ### The Map
-{Mermaid diagram: graph TD showing major components and their relationships.
+{ASCII box-and-arrow diagram showing major components and their relationships.
+ Use box-drawing characters (┌─┐│└─┘), arrows (→ ▼ ──►), and indentation.
+ Do NOT use Mermaid — many terminals and CLI environments cannot render it.
  Base this on ACTUAL directories and imports found by the agents, not generic boxes.
  Label edges with relationship type: imports, HTTP, events, reads/writes.}
 
